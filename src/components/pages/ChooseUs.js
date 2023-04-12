@@ -2,8 +2,8 @@ import React from "react";
 
 const ChooseUs = () => {
 	return (
-		<div className="container my-10">
-			<div className="lg:w-full sm:w-full sm:mx-10 lg:mx-1">
+		<div className="container my-16">
+			<div className="w-full sm:mx-10 lg:mx-1">
 				<h1 className="text-3xl font-bold text-center mb-5 underline underline-offset-4 text-yellow-500">
 					<span className="text-black">WHY CHOOSE US ?</span>
 				</h1>

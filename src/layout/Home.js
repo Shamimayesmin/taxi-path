@@ -15,6 +15,7 @@ const Home = () => {
                 <div className="divider w-full"></div> 
                 <Service></Service>
                 <ChooseUs></ChooseUs>
+                <div className="divider w-full"></div> 
                 <Form></Form>
             </div>
             
