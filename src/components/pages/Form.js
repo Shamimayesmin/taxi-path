@@ -34,12 +34,12 @@ const Form = () => {
 				style={{
 					backgroundImage: `url(${img})`,backgroundRepeat: 'no-repeat',backgroundSize: 'cover', height: "100vh",
 				}}
-				className="h-[800px] flex justify-center items-center"
+				className="h-[800px] flex justify-center items-center rounded-md"
 			>
-				<div className="w-2/3 mx-auto rounded-lg p-7 shadow-2xl backdrop-blur-lg bg-white/30">
+				<div className="w-2/3 overflow-hidden mx-auto rounded-lg p-7 shadow-2xl backdrop-blur-lg bg-white/30">
 					<h2 className="text-2xl text-center font-bold">Book a Taxi:</h2>
 					<form onSubmit={handleSubmit(handleBookTaxi)}>
-						<div className="flex gap-4 mx-auto">
+						<div className="flex gap-4 mx-auto flex-col lg:flex-row">
 							<div className="form-control w-full max-w-md">
 								<label className="label">
 									<span className="label-text">Name</span>
@@ -72,7 +72,7 @@ const Form = () => {
 							</div>
 						</div>
 
-						<div className="flex gap-4 mx-auto">
+						<div className="flex gap-4 mx-auto flex-col lg:flex-row">
 							<div className="form-control w-full max-w-lg">
 								<label className="label">
 									<span className="label-text">Travel From</span>
@@ -107,7 +107,7 @@ const Form = () => {
 								)}
 							</div>
 						</div>
-						<div className="flex gap-4 mx-auto">
+						<div className="flex gap-4 mx-auto flex-col lg:flex-row">
 							<div className="form-control w-full max-w-lg">
 								<label className="label">
 									<span className="label-text"> Date of Travel</span>
@@ -142,7 +142,7 @@ const Form = () => {
 								)}
 							</div>
 						</div>
-						<div className="flex gap-4 mx-auto">
+						<div className="flex gap-4 mx-auto flex-col lg:flex-row">
 							<div className="form-control w-full max-w-lg">
 								<label className="label">
 									<span className="label-text"> Phone Number</span>
